@@ -1,0 +1,28 @@
+body * {
+    font-family: sans-serif;
+}
+
+#palette {
+    flex-basis:15%;
+}
+
+.jtk-schema-builder-palette-react {
+    flex-basis: 200px;
+}
+
+.container {
+    flex-basis:65%;
+    height:800px;
+    display:flex;
+}
+
+.rhs {
+    margin-left:auto;
+    display:flex;
+    flex-direction: column;
+    flex-basis:20%;
+}
+
+.jtk-surface {
+    flex-grow: 1;
+}
